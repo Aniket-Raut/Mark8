@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mark8/static/css/main.906f8000.css",
-    "main.js": "/Mark8/static/js/main.e59f19b5.js",
+    "main.js": "/Mark8/static/js/main.ac1986e8.js",
     "static/js/787.c7cd1c8f.chunk.js": "/Mark8/static/js/787.c7cd1c8f.chunk.js",
     "static/media/getios.png": "/Mark8/static/media/getios.9e5ae6b71bce9f60db6d.png",
     "static/media/banner2.png": "/Mark8/static/media/banner2.cc051c0db57e7535fd6c.png",
@@ -38,11 +38,11 @@
     "static/media/cross-ic.svg": "/Mark8/static/media/cross-ic.f8a93665e687d810e09d4f433fac2ecf.svg",
     "static/media/facebook.svg": "/Mark8/static/media/facebook.62848f79a2f2c1cd935e1a06b3332d5d.svg",
     "main.906f8000.css.map": "/Mark8/static/css/main.906f8000.css.map",
-    "main.e59f19b5.js.map": "/Mark8/static/js/main.e59f19b5.js.map",
+    "main.ac1986e8.js.map": "/Mark8/static/js/main.ac1986e8.js.map",
     "787.c7cd1c8f.chunk.js.map": "/Mark8/static/js/787.c7cd1c8f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.906f8000.css",
-    "static/js/main.e59f19b5.js"
+    "static/js/main.ac1986e8.js"
   ]
 }
