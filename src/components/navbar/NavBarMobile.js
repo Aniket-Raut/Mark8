@@ -32,7 +32,7 @@ export const NavBarMobile = ()=>{
                 </div>
                 <div className='navbar-mob-location-area'>
                     <div className='navbar-mob-location'>
-                        <div className='mob-nav-address'>255,Subhash Nagar,Nagpur</div>
+                        <div className='mob-nav-address'>X20,Dharampeth,Nagpur</div>
                         <img src={DownIC} width='14vh'/>
                     </div>
                     <div className='mob-nav-timeslot'>
