@@ -1,0 +1,49 @@
+.dialog-pointer-main-cnt{
+    /* display: flex; */
+    flex-direction: column;
+    display: none;
+    margin: 5px;
+    padding: 5px;
+    position:absolute;
+    left: 0;
+    z-index: 1;
+    top:0;
+    overflow: hidden;
+}
+.dialog-point{
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid rgb(234, 234, 234);
+    border-right: 10px solid transparent;
+}
+
+.dialog-msg{
+    width: max-content;
+    background-color: rgb(234, 234, 234);
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog-msg input{
+    margin: 2px;
+    border: none;
+    outline: none;
+}
+
+.dialog-msg select{
+    border: none;
+    outline: none;
+    margin: 2p;
+}
+
+/* .dialog-msg option{
+    border: none;
+    background-color: antiquewhite;
+} */
+

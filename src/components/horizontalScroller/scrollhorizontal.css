@@ -1,0 +1,47 @@
+.scrollhorizontal-main-cont{
+    background-color: white;
+    margin: 5px;
+}
+
+.title1{
+    font-size: 15px;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+.scrollhorizontal-items{
+    display: flex;
+    justify-content: left;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.scrollhorizontal-content-area{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+}
+
+.latest-deals-content-area{
+    display: flex;
+    align-items: center;
+}
+
+/* .latest-deals-button-cnt{
+    border: black 1px solid;
+} */
+
+.button-left{
+    padding: 5px;
+    background-color: rgb(225, 226, 228);
+    margin: 5px;
+    user-select: none;
+    opacity: 0.7;
+}
+
+.scrollhorizontal-button-cnt{
+    display: flex;
+    align-items: center;
+}

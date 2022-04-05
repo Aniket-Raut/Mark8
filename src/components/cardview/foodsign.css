@@ -1,0 +1,15 @@
+.food-sign-container{
+    border: rgb(2, 124, 18) 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    padding: 2px;
+}
+
+.food-sign-circle{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(2, 124, 18);
+    border-radius: 50%;
+}

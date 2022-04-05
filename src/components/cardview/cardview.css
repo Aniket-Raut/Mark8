@@ -1,0 +1,55 @@
+.cv1-main-cnt{
+    background-color: white;
+    margin: 5px;
+    border: #ebebeb 1px solid;
+    width: max-content;
+    padding: 8px;
+    display: inline-block;
+}
+
+.cv1-product-title{
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cv1-product-brand{
+    text-align: left;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.cv1-name-price-cnt{
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+}
+
+.cv1-rating{
+    font-size: 13px;
+    /* background-color: #76c57c; */
+    width: max-content;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+.cv1-total-ratings{
+    color: #7e7e7e;
+    margin-left: 4px;
+    font-weight: 400;
+}
+
+.cv1-price{
+    text-align: left;
+}
+
+.cv1-row1{
+    position: relative;
+}
+
+.cv1-fsign{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+}

@@ -1,0 +1,11 @@
+.categ-main-container{
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+}
+
+@media only screen and(max-width:600px){
+    .categ-main-container h3{
+        font-size: 12px;
+    }
+}

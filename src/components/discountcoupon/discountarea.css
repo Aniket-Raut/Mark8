@@ -1,0 +1,25 @@
+.discount-area-main-cnt{
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 10px;
+    flex-direction: column;
+    overflow:scroll;
+}
+
+.Discount-area-super{
+    margin-top: 5px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-area-scroll{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+

@@ -1,0 +1,38 @@
+.categorycard-main-cnt{
+    display: inline-block;
+    background-color: white;
+    width: max-content;
+    margin: 3px;
+    font-size: 14px;
+    padding: 3px;
+    border: rgb(228, 228, 228) 1px solid;
+}
+
+.categorycontainer-main-cnt{
+    width: 100%;
+    /* display:flex;
+    flex-direction: row; */
+    /* border: black 1px solid; */
+    overflow-x: scroll;
+
+}
+
+.categorycard-text{
+    margin-bottom: 6px;
+}
+
+@media only screen and (max-width:600px){
+    .categorycard-main-cnt{
+        font-size: 13px;
+        
+    }
+
+    .categorycard-main-cnt img{
+        max-width: 130px;
+    }
+
+    /* .categorycard-text{
+        font-size: 12px;
+        margin-bottom: 6px;
+    } */
+}
