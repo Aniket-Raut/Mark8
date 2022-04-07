@@ -23,9 +23,23 @@ import { LatestDeals } from './components/Deals/LatestDeals';
 import { NavBarMobile } from './components/navbar/NavBarMobile';
 import { DialogPoint } from './components/DialogPoint';
 import { ScrollViewHorizontal } from './components/horizontalScroller/ScrollHoriontal';
+import { SlideShowMobile } from './components/slideshow/SlideShowMobile';
 
 
 function App() {
+
+  function ShowSlideShow(){
+    if(window.innerWidth<=600){
+      return(
+        <SlideShowMobile></SlideShowMobile>
+      )
+    }else{
+      return(
+        <SlideShow></SlideShow>
+      )
+    }
+  }
+
   function ShowNavBar(){
     if(window.innerWidth<=600){
       return(
@@ -44,7 +58,8 @@ function App() {
       {/* <Snackbar></Snackbar> */}
       <ShowNavBar></ShowNavBar>
       <BtMenu></BtMenu>
-      <SlideShow/>
+      <ShowSlideShow></ShowSlideShow>
+      {/* <SlideShow/> */}
 
       <DiscountArea>
       </DiscountArea>
