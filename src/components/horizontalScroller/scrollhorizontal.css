@@ -14,7 +14,7 @@
 .scrollhorizontal-items{
     display: flex;
     justify-content: left;
-    overflow-x: hidden;
+    overflow-x: scroll;
     scroll-behavior: smooth;
 }
 
