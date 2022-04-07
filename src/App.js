@@ -18,12 +18,18 @@ import { Coupon } from './components/discountcoupon/Coupon';
 import { DiscountArea } from './components/discountcoupon/DiscountArea';
 import { Footer } from './components/Footer';
 import { CategContainer } from './components/categories/CategCont';
-import { CardView } from './components/cardview/CardView1';
+import { CardView, CardView2 } from './components/cardview/CardView1';
 import { LatestDeals } from './components/Deals/LatestDeals';
 import { NavBarMobile } from './components/navbar/NavBarMobile';
 import { DialogPoint } from './components/DialogPoint';
 import { ScrollViewHorizontal } from './components/horizontalScroller/ScrollHoriontal';
 import { SlideShowMobile } from './components/slideshow/SlideShowMobile';
+
+import im1 from './assets/images/product/apple.png'
+import im2 from './assets/images/product/orange.png'
+import im3 from './assets/images/product/banana.png'
+import im4 from './assets/images/product/pineapple.png'
+import im5 from './assets/images/product/mango.png'
 
 
 function App() {
@@ -75,6 +81,13 @@ function App() {
         <input placeholder='Search..'></input>
       </DialogPoint>
       <ScrollViewHorizontal scrollID="latest" mTitle="Popular Items">
+        <CardView2 img={im1} pname="Apple" quantity='1Kg' rating='3.9' ratings='12' price='120'></CardView2>
+        <CardView2 img={im2} disc='8' pname="Orange" quantity='1Kg' rating='4.5' ratings='19' price='60' dprice='55'></CardView2>
+        <CardView2 img={im3} disc='20' pname="Banana" quantity='1Kg' rating='3.9' ratings='12' price='90' dprice='72'></CardView2>
+        <CardView2 img={im4} pname="Pineapple" quantity='1Kg' rating='3.9' ratings='12' price='102' disc='20' dprice='82'></CardView2>
+        <CardView2 img={im5} disc='38' pname="Bananapalli mango" quantity='1Kg' rating='3.9' ratings='12' price='140' dprice='140'></CardView2>
+
+        
         <CardView></CardView>
         <CardView></CardView>
         <CardView></CardView>

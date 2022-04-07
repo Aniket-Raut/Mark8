@@ -27,11 +27,16 @@
 
 .cv1-rating{
     font-size: 13px;
-    /* background-color: #76c57c; */
+    /* background-color: #76c57d6b; */
+    border-radius: 5px;
     width: max-content;
     display: flex;
     align-items: center;
     font-weight: 500;
+    padding-right: 4px;
+    padding-left: 4px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 .cv1-total-ratings{
@@ -52,4 +57,102 @@
     position: absolute;
     top: 3px;
     left: 3px;
+}
+
+
+
+
+
+
+/* ----------------------CardView2---------------------*/
+
+.cv2-main-cnt{
+    background-color: white;
+    margin: 5px;
+    border: #ebebeb 1px solid;
+    width: max-content;
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+}
+.cv2-row2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 5px;
+}
+
+.cv2-productName{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.cv2-productQuantity{
+    font-size: 13px;
+    font-weight: 500;
+    color: #585757;
+}
+
+.cv2-row3{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid rgb(231, 231, 231);
+    padding-top: 5px;
+}
+
+.cv2-productPrice{
+    font-size: 16px;
+    font-weight: 500;
+    /* text-decoration: line-through; */
+}
+
+.cv2-add-btn{
+    background-color: green;
+    border: 1px solid snow;
+    padding: 6px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+}
+
+.cv2-disc{
+    z-index: 1;
+    position: absolute;
+    top: 3px;
+    left: 0;
+}
+
+.cv2-fsign{
+    padding-left: 5px;
+    padding: 3px;
+}
+
+
+/*------------Discount Tag----------------------*/
+
+.card-disc-tag-main{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    padding-right: 5px;
+    font-size: 13px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/*-----------price-------------------------------*/
+.price-cv-main{
+    display: flex;
+    flex-direction: row;
+}
+
+.price-cv-main strike{
+    color: grey;
+    margin-right: 3px;
 }
