@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mark8/static/css/main.906f8000.css",
-    "main.js": "/Mark8/static/js/main.b133ab8e.js",
+    "main.css": "/Mark8/static/css/main.3736bfd8.css",
+    "main.js": "/Mark8/static/js/main.5fc53f67.js",
     "static/js/787.c7cd1c8f.chunk.js": "/Mark8/static/js/787.c7cd1c8f.chunk.js",
     "static/media/banner2m.jpg": "/Mark8/static/media/banner2m.5fecdd9ef8600637fc97.jpg",
     "static/media/banner3m.jpg": "/Mark8/static/media/banner3m.9bb688564eacbc64d55f.jpg",
@@ -13,6 +13,7 @@
     "static/media/banner3.png": "/Mark8/static/media/banner3.3170a4d726811807c1c7.png",
     "static/media/banner4.png": "/Mark8/static/media/banner4.5c892df6aeaae8833460.png",
     "static/media/banner1.png": "/Mark8/static/media/banner1.8f3def3e9c805b8b511b.png",
+    "static/media/pineapple.png": "/Mark8/static/media/pineapple.2601383ea00db55f14e7.png",
     "static/media/apple.png": "/Mark8/static/media/apple.f7454cc64a3581940a88.png",
     "static/media/Slices-13.gif": "/Mark8/static/media/Slices-13.47923808d433c8f3b2a4.gif",
     "static/media/getandroid.png": "/Mark8/static/media/getandroid.614bb6d5ba974c4e3045.png",
@@ -23,6 +24,8 @@
     "static/media/Slices-11.gif": "/Mark8/static/media/Slices-11.0d9c2de27ea239b18636.gif",
     "static/media/Slices-06.gif": "/Mark8/static/media/Slices-06.d9de43637d783e6f79bc.gif",
     "static/media/Slices.gif": "/Mark8/static/media/Slices.e82173014e098ae16a60.gif",
+    "static/media/orange.png": "/Mark8/static/media/orange.19aaa791ad4098af7dbf.png",
+    "static/media/banana.png": "/Mark8/static/media/banana.c9d717f54f32c8294193.png",
     "static/media/upi.svg": "/Mark8/static/media/upi.c00ea212f887aa72a3a27d8e2eb24eb4.svg",
     "static/media/coupon-ico.svg": "/Mark8/static/media/coupon-ico.97e7393e1bb9a23fb43188fd70cd822d.svg",
     "static/media/logo.svg": "/Mark8/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -41,12 +44,12 @@
     "static/media/angle-left.svg": "/Mark8/static/media/angle-left.29b412ebebf0ea28b744fbf9819a1aef.svg",
     "static/media/cross-ic.svg": "/Mark8/static/media/cross-ic.f8a93665e687d810e09d4f433fac2ecf.svg",
     "static/media/facebook.svg": "/Mark8/static/media/facebook.62848f79a2f2c1cd935e1a06b3332d5d.svg",
-    "main.906f8000.css.map": "/Mark8/static/css/main.906f8000.css.map",
-    "main.b133ab8e.js.map": "/Mark8/static/js/main.b133ab8e.js.map",
+    "main.3736bfd8.css.map": "/Mark8/static/css/main.3736bfd8.css.map",
+    "main.5fc53f67.js.map": "/Mark8/static/js/main.5fc53f67.js.map",
     "787.c7cd1c8f.chunk.js.map": "/Mark8/static/js/787.c7cd1c8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.906f8000.css",
-    "static/js/main.b133ab8e.js"
+    "static/css/main.3736bfd8.css",
+    "static/js/main.5fc53f67.js"
   ]
 }
