@@ -81,11 +81,11 @@ function App() {
         <input placeholder='Search..'></input>
       </DialogPoint>
       <ScrollViewHorizontal scrollID="latest" mTitle="Popular Items">
-        <CardView2 img={im1} pname="Apple" quantity='1Kg' rating='3.9' ratings='12' price='120'></CardView2>
         <CardView2 img={im2} disc='8' pname="Orange" quantity='1Kg' rating='4.5' ratings='19' price='60' dprice='55'></CardView2>
         <CardView2 img={im3} disc='20' pname="Banana" quantity='1Kg' rating='3.9' ratings='12' price='90' dprice='72'></CardView2>
         <CardView2 img={im4} pname="Pineapple" quantity='1Kg' rating='3.9' ratings='12' price='102' disc='20' dprice='82'></CardView2>
         <CardView2 img={im5} disc='38' pname="Bananapalli mango" quantity='1Kg' rating='3.9' ratings='12' price='140' dprice='140'></CardView2>
+        <CardView2 img={im1} pname="Apple" quantity='1Kg' rating='3.9' ratings='12' price='120'></CardView2>
 
         
         <CardView></CardView>
