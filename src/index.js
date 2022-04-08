@@ -8,12 +8,13 @@ import ProductPage from './ItemPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route exact path='/' element={<App />}></Route>
         <Route path='/pp/*' element={<ProductPage></ProductPage>}></Route>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <App></App>
     
   </React.StrictMode>,
   document.getElementById('root')
