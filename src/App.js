@@ -30,6 +30,7 @@ import im2 from './assets/images/product/orange.png'
 import im3 from './assets/images/product/banana.png'
 import im4 from './assets/images/product/pineapple.png'
 import im5 from './assets/images/product/mango.png'
+import { products } from './DummyData/producs';
 
 
 function App() {
@@ -95,6 +96,15 @@ function App() {
         <CardView></CardView>
         <CardView></CardView>
         <CardView></CardView>
+      </ScrollViewHorizontal>
+
+      <ScrollViewHorizontal scrollID="suggested" mTitle="Suggested Items">
+      {products.map(
+          (product)=>{
+            return <CardView2 img={product.img} disc={product.discount} pname={product.name} quantity={product.quntity} rating={product.rating} ratings={product.ratings} price={product.price} dprice={product.dprice} unit={product.unit}></CardView2>
+          })
+      }
+
       </ScrollViewHorizontal>
       
       <Footer></Footer>

@@ -52,7 +52,7 @@ export const CardView2=(prop)=>{
             </div>
             <div className='cv2-row2'>
                 <div className='cv2-productName'>{prop.pname}</div>
-                <div className='cv2-productQuantity'>{prop.quantity}</div>
+                <div className='cv2-productQuantity'>{prop.quantity}{prop.unit}</div>
             </div>
             <div className='cv1-rating'>
                 <img src={star} width='15px'/> {prop.rating}
