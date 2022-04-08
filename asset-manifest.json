@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mark8/static/css/main.60e9edc4.css",
-    "main.js": "/Mark8/static/js/main.6b3caf43.js",
+    "main.css": "/Mark8/static/css/main.43aa1019.css",
+    "main.js": "/Mark8/static/js/main.f2dfac7e.js",
     "static/js/787.c7cd1c8f.chunk.js": "/Mark8/static/js/787.c7cd1c8f.chunk.js",
     "static/media/banner2m.jpg": "/Mark8/static/media/banner2m.5fecdd9ef8600637fc97.jpg",
     "static/media/banner3m.jpg": "/Mark8/static/media/banner3m.9bb688564eacbc64d55f.jpg",
@@ -44,12 +44,12 @@
     "static/media/angle-left.svg": "/Mark8/static/media/angle-left.29b412ebebf0ea28b744fbf9819a1aef.svg",
     "static/media/cross-ic.svg": "/Mark8/static/media/cross-ic.f8a93665e687d810e09d4f433fac2ecf.svg",
     "static/media/facebook.svg": "/Mark8/static/media/facebook.62848f79a2f2c1cd935e1a06b3332d5d.svg",
-    "main.60e9edc4.css.map": "/Mark8/static/css/main.60e9edc4.css.map",
-    "main.6b3caf43.js.map": "/Mark8/static/js/main.6b3caf43.js.map",
+    "main.43aa1019.css.map": "/Mark8/static/css/main.43aa1019.css.map",
+    "main.f2dfac7e.js.map": "/Mark8/static/js/main.f2dfac7e.js.map",
     "787.c7cd1c8f.chunk.js.map": "/Mark8/static/js/787.c7cd1c8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60e9edc4.css",
-    "static/js/main.6b3caf43.js"
+    "static/css/main.43aa1019.css",
+    "static/js/main.f2dfac7e.js"
   ]
 }
