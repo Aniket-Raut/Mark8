@@ -1,0 +1,112 @@
+.product-main-r1{
+    display: flex;
+    flex-direction: row;
+}
+
+.product-c1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid blue;
+    padding: 4px;
+}
+
+.product-img{
+    background-color: beige;
+    border: 1px solid green;
+    width: 350px;
+    height: 360px;
+}
+
+.product-img-previews{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid green;
+}
+.product-img-preview{
+    background-color: #a7a3a3;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+
+
+.product-c2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: 1px solid blue;
+    width: 100%;
+}
+.product-brand{
+    font-size: 13px;
+    font-weight: 500;
+}
+.product-mrp{
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    /* font-weight: 400; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.product-discounted-price{
+    margin-left: 5px;
+}
+.product-discount-perc{
+    margin-left: 15px;
+}
+
+.product-name{
+    font-size: 16px;
+    font-weight: 500;
+}
+.product-ratings-container{
+    display: flex;
+    flex-direction: row;
+    padding: 4px;
+    padding-left: 0px;
+}
+.product-ratings{
+    display: flex;
+    flex-direction: row;
+}
+.product-total-ratings{
+    margin-left: 4px;
+    font-size: 13px;
+}
+
+.product-btn-row1{
+    display: flex;
+    flex-direction: row;
+}
+.product-btn-row1 input{
+    width: 40px;
+    margin: 3px;
+    margin-left: 0px;
+}
+.product-to-basket-btn{
+    background-color: #a7a3a3;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+}
+
+.product-save-btn{
+    background-color: #a7a3a3;
+    padding: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 3px;
+}
+
+.product-delivery-timeslot{
+    font-size: 13px;
+    margin-top: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.product-quantity-options{
+    background-color: green;
+}
